@@ -24,7 +24,11 @@ public class EbayDemo {
 
 
         driver.findElement(By.cssSelector("#gh-search-btn")).click();
+        driver.findElement(By.xpath("//span[text()='Apple iPhone 11']")).click();
+
         Thread.sleep(2000);
+
+
 
 
 
